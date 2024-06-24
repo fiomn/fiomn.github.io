@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Star Jedi';
+    src: url('../fonts/SF Distant Galaxy.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+h2.text-center {
+    font-family: 'Star Jedi', sans-serif;
+    color: black;
+    margin: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Star Jedi', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.hero .carousel-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.hero .carousel-item {
+    height: 70vh;
+}
+
+.hero .carousel-item img {
+    object-fit: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.3); /* Filtro oscuro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero .display-4 {
+    font-family: 'Star Jedi', Arial, sans-serif;
+    font-size: 3em;
+}
+
+.container {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.menu-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px 0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+    font-size: 1.2em;
+}
+
+.menu-item-arrow {
+    font-size: 1.5em;
+    color: #dc3545;
+}
+
+#contacto {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#contacto label {
+    font-weight: bold;
+}
+
+#contacto .btn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#contacto .btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
